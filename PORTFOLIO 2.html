@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dharani.K - Portfolio</title>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto&display=swap" rel="stylesheet" />
+
+  <!-- Custom Styles -->
+  <style>
+    :root {
+      --primary-color: #ff6b6b;
+      --accent-color: #5f27cd;
+      --bg-dark: #111;
+      --text-light: #f1f1f1;
+      --text-muted: #aaa;
+    }
+
+    body {
+      margin: 0;
+      background-color: var(--bg-dark);
+      color: var(--text-light);
+      font-family: 'Roboto', sans-serif;
+      scroll-behavior: smooth;
+    }
+
+    h1, h2, h3 {
+      font-family: 'Poppins', sans-serif;
+    }
+
+    .navbar {
+      background-color: transparent;
+      padding: 1rem 2rem;
+      position: fixed;
+      width: 100%;
+      z-index: 1000;
+    }
+
+    .navbar-brand {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: var(--primary-color) !important;
+    }
+
+    .nav-link {
+      color: var(--text-light) !important;
+      margin-left: 20px;
+      font-weight: 500;
+    }
+
+    .nav-link:hover {
+      color: var(--primary-color) !important;
+    }
+
+    .hero {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      padding: 0 10%;
+      background: linear-gradient(to right, #000, #222);
+    }
+
+    .hero h1 {
+      font-size: 4rem;
+      font-weight: 700;
+      color: var(--primary-color);
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      color: var(--text-muted);
+      max-width: 500px;
+      margin-top: 20px;
+    }
+
+    .btn-resume {
+      margin-top: 30px;
+      background-color: var(--accent-color);
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      font-weight: 500;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+
+    .btn-resume:hover {
+      background-color: var(--primary-color);
+      color: #000;
+    }
+
+    section {
+      padding: 80px 10%;
+      border-top: 1px solid #333;
+    }
+
+    .section-title {
+      color: var(--accent-color);
+      font-size: 2.5rem;
+      margin-bottom: 30px;
+    }
+
+    .project-card {
+      background-color: #1a1a1a;
+      border-radius: 10px;
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 0 10px #000;
+      color: var(--text-light);
+    }
+
+    .skills ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .skills li {
+      font-size: 1.1rem;
+      color: var(--text-muted);
+      padding: 5px 0;
+    }
+
+    footer {
+      background-color: #000;
+      text-align: center;
+      padding: 20px;
+      color: var(--text-muted);
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <a class="navbar-brand" href="#">Dharani.K</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+<section id="home" class="hero d-flex flex-column flex-md-row align-items-center justify-content-between">
+  <div class="hero-text" style="max-width: 600px;">
+    <h1>Hello.<br>I am Dharani.K</h1>
+    <p>Junior Java Full Stack Developer building stylish, responsive, and user-centric websites and desktop applications.</p>
+    <a href="DHARANI  1 resume (1).pdf" class="btn-resume" download>View My Resume</a>
+  </div>
+  <div class="hero-image mt-4 mt-md-0">
+    <img src="20240110_151403 (2).jpg" alt="Dharani.K" class="img-fluid rounded-circle shadow" style="max-width: 280px; border: 4px solid #5f27cd;" />
+  </div>
+</section>
+
+
+<!-- About -->
+<section id="about">
+  <h2 class="section-title">About Me</h2>
+  <p>
+    Hello! I'm <strong>Dharani.K</strong>, a passionate and dedicated <strong>Junior Java Full Stack Developer</strong> with a keen interest in building robust, responsive, and user-friendly web and desktop applications. 
+  </p>
+  <p>
+    I specialize in developing the frontend using <strong>HTML, CSS, Bootstrap, JavaScript, jQuery, and AngularJS</strong> to craft visually appealing and highly interactive user interfaces. On the backend, I leverage my skills in <strong>Java (Swing, JDBC)</strong> and <strong>MySQL</strong> to develop secure and efficient systems with a strong emphasis on data management and system reliability.
+  </p>
+  <p>
+    I have developed projects such as a <strong>Travel Agency Website</strong> showcasing my web development expertise, and an <strong>Employee Database Management System</strong> using Java and MySQL, which reflects my backend proficiency and understanding of CRUD operations, database integration, and desktop application development.
+  </p>
+  <p>
+    As a developer, I believe in writing clean, maintainable code and continuously learning new technologies to stay updated in this fast-evolving tech industry. I aspire to work on impactful projects and contribute meaningfully to a dynamic development team.
+  </p>
+</section>
+
+  
+  <!-- Skills -->
+  <section id="skills" class="skills">
+    <h2 class="section-title">Skills</h2>
+    <ul>
+      <li>HTML5, CSS3, Bootstrap 4/5</li>
+      <li>JavaScript, jQuery</li>
+      <li>AngularJS</li>
+      <li>Java (Swing, JDBC)</li>
+      <li>MySQL, MySQL Workbench</li>
+      <li>UI/UX Design Principles</li>
+      <li>Responsive Web Development</li>
+    </ul>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="projects">
+    <h2 class="section-title">Projects</h2>
+
+    <div class="project-card">
+      <h4>🌐 Travel Agency Website</h4>
+      <p>
+        A fully responsive travel booking website built using HTML, CSS, Bootstrap, and JavaScript. It features
+        animated sections, booking forms, destinations grid, gallery, and a mobile-first design approach.
+        Focused on smooth user experience and aesthetic layout.
+      </p>
+    </div>
+
+    <div class="project-card">
+      <h4>🧑‍💼 Employee Database Management System</h4>
+      <p>
+        A Java Swing desktop application with MySQL backend. This system allows the admin to perform CRUD operations (Add, Update, Delete, View) on employee data, login authentication, and database integration using JDBC and MySQL Workbench. Focused on a clean UI and modular codebase.
+      </p>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="contact text-center">
+    <h2 class="section-title">Contact</h2>
+    <p><strong>Email:</strong> kamarajdharani508@gmail.com</p>
+    <p><strong>Phone:</strong> +91 9345306105</p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    &copy; 2025 Dharani.K. All rights reserved.
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
